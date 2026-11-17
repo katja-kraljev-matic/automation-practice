@@ -35,7 +35,7 @@ public class LoginTest {
 
         Assert.assertTrue(
                 driver.getCurrentUrl().contains("inventory"),
-                "Login nije uspio"
+                "Login failed"
         );
     }
 
